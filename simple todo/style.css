@@ -1,0 +1,48 @@
+html,
+body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blanchedalmond;
+}
+
+.container {
+  width: 360px;
+  min-height: 300px;
+  background-color: rgb(97, 201, 166);
+}
+
+#input {
+  width: 250px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+  align-content: center;
+}
+
+#add {
+  height: 50px;
+  width: 90px;
+  border: 1px solid black;
+  align-content: center;
+  margin-left: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#todolist {
+  margin-top: 25px;
+  list-style: none;
+  align-items: end;
+  justify-items: end;
+}
+
+li {
+  text-align: right;
+  height: 35px;
+  margin-bottom: 2px;
+  background-color: white;
+  border-radius: 2px;
+  border: 2px solid gray;
+}
